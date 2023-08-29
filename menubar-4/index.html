@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Reset some default styles */
+    body, ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Main navigation styles */
+    .menu {
+      background-color: #333;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    
+    /* Menu list styles */
+    .menu ul {
+      display: flex;
+      list-style-type: none;
+    }
+    
+    /* Menu item styles */
+    .menu ul li {
+      margin-right: 10px;
+    }
+    
+    /* Menu link styles */
+    .menu ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    /* Responsive menu */
+    @media screen and (max-width: 600px) {
+      .menu {
+        flex-wrap: wrap;
+      }
+      
+      .menu ul {
+        flex-direction: column;
+      }
+      
+      .menu ul li {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</body>
+</html>
